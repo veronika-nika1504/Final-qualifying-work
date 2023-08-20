@@ -1,0 +1,16 @@
+.BtnBig	, .BtnSmall	{	width:150px; }
+.BtnBig		{	font:normal italic 14pt 'Times New Roman'; height:30px; border-radius:15px; }
+.BtnSmall	{	font:normal italic 8pt 'Times New Roman'; height:16px; border-radius:8px; letter-spacing:3px; vertical-align:super;}
+.BtnBig:focus, .BtnSmall:focus { font-weight: bold }
+.knop	{	border:solid #C5CBE5 1px; height:22px; width:25px }
+.floatLeft	{ float:left; margin-left:2px; margin-right:2px; }
+.floatRight	{ float:right; margin-left:2px; margin-right:2px; }
+.clear	{ clear:both; }
+.mnu	{ background-color:#7b68ee; height:25px; padding-top:2px; border:solid 1px green;}
+.notice { position:absolute;
+		width:50%; height:30%; top:25%; left:25%; padding:5% 0px 0px 0px;
+		text-align:center; vertical-align:center;
+		background-color:#C5CBE5; color:red;
+		font:bold italic 20pt 'Times New Roman';
+		border:solid blue 2px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;
+		text-shadow: 3px 5px 6px gray;}

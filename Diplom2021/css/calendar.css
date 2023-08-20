@@ -1,0 +1,23 @@
+/* calendar.css */
+#tCalendar  {   position:absolute; border-collapse:collapse; background:#FFFFFF;
+                border:1px solid #C5CBE5; z-index:300; -moz-user-select:none; -khtml-user-select:none; user-select:none;}
+#tCalendar #forChangeYear span { cursor:pointer; }
+#tCalendar  tr:first-child { font:bold 13px Arial; }
+#tCalendar  tr:first-child td:first-child,
+#tCalendar  tr:first-child td:last-child { cursor:pointer; font-size:15px }
+#tCalendar  tr:nth-child(2) { background:#C5CBE5; font: bold 12px Arial; color:#FFFFFF }
+#tCalendar  tr:nth-child(2) { text-align: center }
+#tCalendar  tr:nth-child(3) td,
+#tCalendar  tr:nth-child(4) td,
+#tCalendar  tr:nth-child(5) td,
+#tCalendar  tr:nth-child(6) td,
+#tCalendar  tr:nth-child(7) td,
+#tCalendar  tr:nth-child(8) td { min-width: 21px; height:19px;
+                                font:10px Arial; color:#333333; text-align:center; text-decoration: none;
+                                border:1px solid #C5CBE5; }
+#tCalendar  tr:last-child td { text-align: center; cursor:pointer; font: bold italic 13px Arial; background:#C5CBE5; color:#FFFFFF }
+.dCalendarD,
+.dCalendarN { background: #FFFFFF; }
+.dCalendarD:hover { background: #87CEFA; cursor:pointer; }
+.dCalendarT { background: #C5CBE5; cursor:pointer; }
+.dCalendarA { background: #87CEFA; cursor:pointer; }

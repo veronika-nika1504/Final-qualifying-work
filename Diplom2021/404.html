@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="ru" />
+<meta name="description" content="Недвижимость: оценка, купля, продажа" />
+<meta name="keywords" content="Недвижимость: оценка, купля, продажа, риэлтер" />
+<meta name="robots" content="index,follow" />
+<link rel="shortcut icon" href="img/favicon.png" />
+<link rel="stylesheet" href="css/main.css">
+<style>
+	td, .BtnBig { text-align:center; font: bold italic 18pt 'Times New Roman' }
+	.BtnBig { width:200px }
+</style>
+<title>404</title>
+</head><body>
+<table align="center">
+	<tr><td height="20%">&nbsp;</td></tr>
+	<tr><td><img id="ky" src="404.png" style="width:330px; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0;" /></td></tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr><td><button id="btn" class="BtnBig" style="cursor:pointer; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0;" title="Вернуться на главную" onclick="document.location.href='index.php'">K&nbsp;y</button></td></tr>
+</table>
+</body>
+<script>
+	var o=0, ks=document.getElementById("ky").style, bs=document.getElementById("btn").style;
+function	 KY(){
+	o += 0.01;
+	with(ks){
+		filter = "alpha(opacity="+(o*100)+")";
+		MozOpacity = o;
+		KhtmlOpacity = o;
+		opacity = o;
+	}
+	with(bs){
+		filter = "alpha(opacity="+(o*100)+")";
+		MozOpacity = o;
+		KhtmlOpacity = o;
+		opacity = o;
+	}
+	if(o < 1.00)	setTimeout(KY,100);
+}
+window.onload=KY;
+</script>
+</html>
